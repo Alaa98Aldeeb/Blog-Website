@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheet/authentication.css">
+
+    <style>
+        form input{
+            width: 100%;
+        }
+        form textarea{
+            text-align: left;
+            color: #000;
+            outline: 2px solid #865DFF;
+            font-size: 18px;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            height: 50%;
+            margin-top: 2%;
+            margin-bottom: 2%;
+            border-radius: 10px;
+            margin-left: 0;
+        }
+        form textarea::placeholder{
+            font-size: 15px;
+            color: #3b3b3b;
+            text-transform: capitalize;
+        }
+</style>
+</head>
+<body>
+    <form action="/Blog%20Doors/post%20add" method="post">
+        <input type="text" name="title" id="" placeholder="Post Title"/>
+        <textarea placeholder="post content" name="content"></textarea>
+        <input type="submit" value="Add post">
+    </form>
+</body>
+</html>

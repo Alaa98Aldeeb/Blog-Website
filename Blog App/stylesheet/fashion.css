@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #8D8DAA;
+}
+header{
+    padding: 20px;
+    background-color: rgba(0, 0, 0, .3);
+}
+header img{
+    vertical-align: middle;
+}
+header label{
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 28px;
+}
+header div{
+    display: inline-block;
+    float: right;
+    margin-right: 3%;
+    background-color: #826F66;
+    padding: 5px;
+    border-radius: 10px;
+}
+header div a{
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.postDetails{
+    height:fit-content;
+    width: 94%;
+    margin:auto;
+    background-color: #F7F5F2;
+    padding:2%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.postDetails .userInfo{
+    padding: 10px;
+    background-color: #8D8DAA;
+    margin-bottom: 10px;
+}
+.postDetails .userInfo h1{
+    text-transform: capitalize;
+    color: #fff;
+}
+.postDetails .userInfo p{
+    color: #313030;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-left: 1%;
+    font-weight: bold;
+}
+.postDetails img{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.postDetails label{
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: bold;
+}
+.postDetails .postContent{
+    width: 80%;
+    margin-left: 3%;
+    font-weight: 500;
+    color: #000;
+    background-color: #DFDFDE;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.postDetails a{
+    color: #1a1919;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.postDetails .comments{
+    margin-top: 10px;
+}
+.postDetails .comments .commentDetails{
+    background-color: #826F66;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 50%;
+    border-radius: 10px;
+}
+.postDetails .comments .commentDetails img{
+    vertical-align: middle;
+}
+.postDetails .comments .commentDetails label{
+    font-size: 18px;
+}
+.postDetails .comments .commentDetails p{
+    color: #fff;
+    margin-left: 2%;
+}

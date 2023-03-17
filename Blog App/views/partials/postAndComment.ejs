@@ -1,0 +1,21 @@
+<% data.forEach(function (post) { %>
+    <div class="postDetails">
+        <div class="userInfo">
+            <h1><%= post.postTitle %></h1>
+            <p>Posted By: <%= post.user %></p>
+        </div>
+        <div class="postContent">
+            <%= post.postContent %>
+        </div>
+        <a href="/Blog Doors/add comment?id=<%= post._id %>">add comment</a>
+        <div class="comments">
+            <% post.comments.forEach(function (comm){ %>
+            <div class="commentDetails">
+                <img src="/images/userBig.png" alt="" srcset="">
+                <label><%= comm.userComment %></label>
+                <p><%= comm.comment %></p>
+            </div>
+            <% }) %>
+        </div>
+    </div>
+<% }) %>
